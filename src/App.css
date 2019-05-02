@@ -1,6 +1,24 @@
+@import '~antd/dist/antd.css';
+
 .App {
   text-align: center;
 }
+.bu {
+  background-color: #282c34;
+}
+.header {
+  width : 100;
+  min-height: 10vh;
+  background-color: #282c34;
+
+}
+.tt{
+  text-align: center;
+  text-decoration-color : '#282c34'
+}
+.div.image {
+  content:url(http://placehold.it/350x150);
+}​
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
