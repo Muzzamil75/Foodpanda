@@ -177,7 +177,7 @@ import {
             )}
           </Form.Item>
           <Form.Item>
-           <Button type="primary" htmlType="submit" className="login-form-button">
+           <Button style={{marginLeft: 'auto'}} type="primary" htmlType="submit" className="login-form-button">
              SignUp  
            </Button>
           

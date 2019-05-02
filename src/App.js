@@ -7,10 +7,10 @@ class App extends Component {
   render() {
     return (
       <div >
-         <Header />
-<div>
-<img style={{height :'660px', width : '100%'}} src={require('./hacker.jpg')} />
-</div>
+        <Header />
+        <div>
+          <img style={{ height: '660px', width: '100%' }} src={require('./hacker.jpg')} />
+        </div>
         <Dashboard />
       </div>
 

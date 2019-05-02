@@ -33,12 +33,13 @@ import {
           </Form.Item>
           <Form.Item>
            
+            <div style= {{flexDirection:'row',display:'flex',justifyContent:'space-between'}}>
 
             <a className="login-form-forgot" href="">Forgot password </a>
             <Button type="primary" htmlType="submit" className="login-form-button">
               Log in   
             </Button>
-            Or <a href="">Register now!</a>
+            </div>
           </Form.Item>
         </Form>
       );

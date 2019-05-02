@@ -39,6 +39,8 @@ class ModelsR extends React.Component {
           visible={this.state.visible}
           onOk={this.handleOk}
           onCancel={this.handleCancel}
+          footer = {null}
+
         >
         <WrappedRegistrationForm />
         </Modal>

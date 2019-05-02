@@ -4,7 +4,7 @@ const Cards = () => {
     return(
 
         <div style={{ background: 'white', padding: '20px',margin:10 }}>
-        <Row gutter={20} >
+        <Row gutter={30} >
           <Col span={4}>
             <Card  title="Users" hoverable ={true} bordered={true}>Users details</Card>
           </Col>
@@ -17,6 +17,13 @@ const Cards = () => {
           <Col span={4}>
             <Card  title="Rules"  hoverable ={true} bordered={true}>User Rules</Card>
           </Col>
+          <Col span={4}>
+            <Card  title="Rules"  hoverable ={true} bordered={true}>User Rules</Card>
+          </Col>
+          <Col span={4}>
+            <Card  title="Rules"  hoverable ={true} bordered={true}>User Rules</Card>
+          </Col>
+          
         </Row>
       </div>
     )}

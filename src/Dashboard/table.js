@@ -146,7 +146,7 @@ class TableC extends React.Component {
           <Button onClick={this.clearFilters}>Clear filters</Button>
           <Button onClick={this.clearAll}>Clear filters and sorters</Button>
         </div>
-        <div style={{backgroundColor : '#FEDAFB'}}>
+        <div style={{backgroundColor : 'white'}}>
         <Table columns={columns} dataSource={data} onChange={this.handleChange} />
 
         </div>
